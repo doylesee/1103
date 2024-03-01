@@ -1,8 +1,7 @@
 /* CWS Developer: DoyleS */
 body {
 	background-color: #fff;
-	background-image: url('../system/production/assets/425138/original/rose-quarter__careers__bg.png');
-	background-image: url('_assets/rose-quarter__careers__bg.png');
+	background-image: url('assets/rose-quarter__careers__bg.png');
 	background-repeat: repeat;
 	background-size: 200px;
     color: #000;
@@ -292,8 +291,7 @@ a.skip-main:active {
 	position: relative;
 }
 .page-banner::before {
-	background: url('../system/production/assets/425147/original/careers-home__banner-bg.jpeg');
-	background: url('_assets/careers-home__banner-bg.jpeg');
+	background: url('assets/careers-home__banner-bg.jpeg');
 	background-size: cover;
 	content: '';
 	height: 190px;
