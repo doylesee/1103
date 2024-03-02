@@ -92,7 +92,6 @@ address {
     font-size: 14px;
     font-weight: 900;
     line-height: 20px;
-    min-width: 300px;
     padding: 13px 30px;
     text-align: center;
     text-transform: uppercase;
@@ -322,7 +321,6 @@ a.skip-main:active {
 	z-index: 1;
 }
 .page-banner__search-form {
-	padding: 70px 50px;
 	position: relative;
 	z-index: 2;
 }
@@ -566,8 +564,16 @@ footer ul li a {
     /* 640 */
     .width-detector { width: 640px; }
 
-    /* 640 Footer section */
-    .footer__social-media a { margin: 0 12px 0 0; }
+    /* 640 Branded styles */
+    .branded-button-1 {
+	    min-width: 300px;
+	}
+
+	/* 640 Banner section */
+	.page-banner__search-form {
+		padding: 70px 50px;
+	}
+
 }
 @media only screen and (min-width: 1024px) {
 	/* 1024 */
