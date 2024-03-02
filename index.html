@@ -95,11 +95,21 @@
                                     <div class="page-banner__search-form">
                                         <div id="main" tabindex="-1"></div>
                                         <form method="get" action="/search/jobs" class="search-form">
-                                            <label for="cs_jobsearchforminput_keyword" class="show-for-sr">Keyword, Job Title, skills</label>
-                                            <input type="text" placeholder="Keyword, Job Title, skills" id="cs_jobsearchforminput_keyword" class="ui-autocomplete-input" autocomplete="off" name="q" value=""><span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+                                            <div class="search-form__field">
+                                                <label for="cs_jobsearchforminput_keyword" class="show-for-sr">Keyword, Job Title, skills</label>
+                                                <input type="text" placeholder="Keyword, Job Title, skills" id="cs_jobsearchforminput_keyword" class="ui-autocomplete-input" autocomplete="off" name="q" value=""><span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+                                            </div>
 
-                                            <label for="search__location" class="show-for-sr">Enter a Location</label>
-                                            <input type="text" name="location" value="" placeholder="Enter a Location" id="search__location" />
+                                            <div class="search-form__field">
+                                                <label for="search__jobtype" class="show-for-sr">Select a Job Type</label>
+                                                <select name="cfm3" id="search__jobtype">
+                                                    <option value="" disabled="" selected="">Select a Job Type</option>    
+                                                    <option value="Full-Time">Full-Time</option>
+                                                    <option value="Part-Time Fixed">Part-Time Fixed</option>
+                                                    <option value="Part-Time Event">Part-Time Event</option>
+                                                    <option value="Intern">Intern</option>
+                                                </select>
+                                            </div>
                                             
                                             <input type="submit" value="Find Jobs" class="branded-button-1 full-width">
                                         </form>

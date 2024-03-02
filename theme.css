@@ -324,7 +324,9 @@ a.skip-main:active {
 	position: relative;
 	z-index: 2;
 }
-.page-banner__search-form input[type="text"] {
+.page-banner__search-form input[type="text"],
+.page-banner__search-form select {
+	border-radius: 6px;
 	color: #000;
 	height: 50px;
 	max-width: 400px;
