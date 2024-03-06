@@ -37,6 +37,7 @@ h4 {
 }	
 p {
     font-size: 13px;
+    font-size: 15px; /* changing against corporate site branding for better UI */
     line-height: 22px;
     margin: 0 0 30px 0;
 }
@@ -364,8 +365,9 @@ a.card-tiles__item:focus {
 	box-shadow: 0 6px 10px rgba(0,0,0,.25);
 	text-decoration: none;
 }
-a.card-tiles__item p:last-child {
+a.card-tiles__item p {
 	font-size: 13px;
+	font-size: 15px; /* changing against corporate site branding for better UI */
 	font-weight: 300;
 	line-height: 22px;
 	margin: 0;
@@ -406,6 +408,7 @@ a.column-tiles__item:focus * {
 .column-tiles__item-image {
 	box-shadow: 0 8px 16px -8px rgba(0,0,0,.28),0 8px 16px -8px rgba(50,50,92,.3);
 	margin: 0 0 15px 0;
+	margin: 0 0 25px 0; /* changing against corporate site branding for better UI */
 	overflow: hidden;
 }
 .column-tiles__item-image img {
@@ -419,6 +422,7 @@ a.column-tiles__item:focus .column-tiles__item-image img {
 }
 a.column-tiles__item p {
 	font-size: 13px;
+	font-size: 15px; /* changing against corporate site branding for better UI */
 	font-weight: 300;
 	line-height: 22px;
 	margin: 0;
@@ -485,6 +489,7 @@ a.category-tiles__item:focus {
 }
 .category-tiles__item-copy h3 {
 	font-size: 13px;
+	font-size: 15px; /* changing against corporate site branding for better UI */
 	font-weight: 300;
 	line-height: 22px;
 	margin: 0;
